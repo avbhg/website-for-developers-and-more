@@ -74,20 +74,6 @@ const CONFIG = {
 };
 ```
 
-### 2. Free 1-Click Hosting on GitHub Pages
-1. Create a new repository on GitHub (e.g. `biolink`).
-2. Push your files:
-   ```bash
-   git init -b main
-   git add .
-   git commit -m "feat: initial biolink release"
-   git remote add origin https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
-   git push -u origin main
-   ```
-3. In GitHub, go to **Settings** → **Pages** → choose **main** branch and root `/` → click **Save**.
-4. Your website is live worldwide at `https://<YOUR_USERNAME>.github.io/<REPO_NAME>/`!
-
----
 
 ## 📜 License
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
