@@ -1,0 +1,51 @@
+================================================================================
+DARK BIOLINK & DEVELOPER PORTFOLIO TEMPLATE
+================================================================================
+
+Simple setup instructions for your biolink website.
+
+--------------------------------------------------------------------------------
+1. MEDIA FILES
+--------------------------------------------------------------------------------
+Drop your files into this folder:
+
+  avatar.jpg     -> Your profile avatar image.
+  background.mp4 -> Looping background video (optional).
+  audio.mp3      -> Background music track (optional).
+
+If you don't add background.mp4 or audio.mp3, the site works automatically
+with a clean dark obsidian background.
+
+--------------------------------------------------------------------------------
+2. CUSTOMIZING YOUR INFO
+--------------------------------------------------------------------------------
+Open "config.js" in any text editor (Notepad, VS Code, etc.):
+  - name: your username
+  - bio: phrases for the terminal typewriter
+  - discord: your discord handle
+  - github: your github url
+  - ltc: your litecoin address
+  - audio: track title and artist
+
+Open "index.html" to paste your project links and descriptions:
+  Find "<!-- project 1 -->" and paste your link into <a href="...">.
+
+--------------------------------------------------------------------------------
+3. RUN LOCALLY
+--------------------------------------------------------------------------------
+Double click "index.html" to open in your browser.
+Or with python: python -m http.server 3000
+
+--------------------------------------------------------------------------------
+4. FREE GITHUB PAGES HOSTING
+--------------------------------------------------------------------------------
+1. Create a new repository on https://github.com/new
+2. Run "push_to_github.bat" in this folder and paste your repository URL.
+3. In your repo, go to Settings -> Pages -> choose "main" branch and save.
+4. Your website is live at https://<username>.github.io/<repo>/
+
+--------------------------------------------------------------------------------
+5. LICENSE
+--------------------------------------------------------------------------------
+MIT License - free to use and customize.
+================================================================================
